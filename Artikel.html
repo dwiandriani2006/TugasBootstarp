@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .artikel-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .artikel-card {
+      background: lightblue;
+      border-radius: 8px;
+      box-shadow: black;
+      overflow: hidden;
+      flex-direction: column;
+    }
+
+    .artikel-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 15px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content h3 {
+      margin: 0 0 10px;
+      font-size: 1.1rem;
+    }
+
+    .content p {
+      flex: 1;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      margin: 0 0 10px;
+    }
+
+    .content a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    .content a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-dark ">
+  <div class="container">
+    <div class="container my-4 p-4 bg-info bg-opacity-50 shadow rounded">
+
+      <header class="mb-4 text-center text-white">
+        <h1 class="display-5 fw-bold"> WELCOME TO MY WEBSITE</h1>
+      </header>
+
+
+      <nav class="navbar navbar-expand-lg navbar-light  mb-4">
+      <div class="container-fluid justify-content-center">
+        <ul class="navbar-nav d-flex flex-wrap justify-content-center gap-3">
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="profil.html">Profil</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="Galeri.html">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="Artikel.html">Artikel</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="Tentang.html">Tentang</a></li>
+        </ul>
+      </div>
+    </nav>
+      <div id="artikel" class="artikel">
+        <center>
+          <p>Artikel terbaru akan ditampilkan di sini:</p>
+        </center>
+        <br>
+        <br>
+        <div class="artikel-card">
+          <div class="artikel-wrapper">
+
+            <div class="artikel-card">
+              <img src="Artikel 1.png" alt="UI Peringatkan Devisa Kabur">
+              <div class="content">
+                <h3>Kampus Asing Ramai Buka Kampus di RI, Pakar UI: Devisa Bisa Kabur</h3>
+                <p>Pakar UI sebut kampus asing kian banyak di Indonesia & bisa menyedot devisa. Solusi: program gelar
+                  ganda double degree.</p>
+                <a href="https://www.detik.com/edu/perguruan-tinggi/d-7962763/kampus-asing-ramai-buka-kampus-di-ri-pakar-ui-devisa-bisa-kabur"
+                  target="_blank">Baca selengkapnya →</a>
+              </div>
+            </div>
+
+            <div class="artikel-card">
+              <img src="artikel 2.png" alt="Western Sydney Surabaya">
+              <div class="content">
+                <h3>Western Sydney University Buka Kampus di Surabaya</h3>
+                <p>WSU resmi membuka kampus pertama di Surabaya—menawarkan program TI dan bisnis, sejak Februari 2025.
+                </p>
+                <a href="https://tempo.co/internasional/western-sydney-university-australia-membuka-kampus-pertama-di-indonesia-1206930"
+                  target="_blank">Baca selengkapnya →</a>
+              </div>
+            </div>
+
+            <div class="artikel-card">
+              <img src="artikel 3.png" alt="Kampus Asing Lain">
+              <div class="content">
+                <h3>Semakin Banyak PT Asing Hadir di Indonesia</h3>
+                <p>Monash, Deakin-Lancaster, WSU, dan rencana Georgetown semuanya hadir untuk memperkuat daya saing
+                  perguruan tinggi lokal.</p>
+                <a href="https://www.kompas.id/baca/humaniora/2024/03/10/perguruan-tinggi-asing-terus-hadir-di-indonesia"
+                  target="_blank">Baca selengkapnya →</a>
+              </div>
+            </div>
+
+            <div class="artikel-card">
+              <img src="artikel 4.png" alt="Al-Azhar & Jordan University">
+              <div class="content">
+                <h3>Al-Azhar Cairo & Jordan University Bakal Buka Cabang di Indonesia</h3>
+                <p>Kemenag rencanakan kampus cabang Al‑Azhar dan Jordan University di bawah naungan PTIQ untuk
+                  pendidikan ulama.</p>
+                <a href="https://www.medcom.id/pendidikan/news-pendidikan/8KyZyrrN-universitas-al-azhar-cairo-dan-jordan-university-bakal-buka-cabang-di-indonesia"
+                  target="_blank">Baca selengkapnya →</a>
+              </div>
+            </div>
+
+            <div class="artikel-card">
+              <img src="artikel 5.png" alt="Kampus Internasional Jakarta">
+              <div class="content">
+                <h3>Kampus Bertaraf Internasional di Jakarta & Sekitarnya</h3>
+                <p>UI, SGU, Sampoerna, IULI, Podomoro, President, hingga Esa Unggul tawarkan program internasional di
+                  wilayah Jabodetabek.</p>
+                <a href="https://www.quipper.com/id/blog/quipper-campus/campus-info/p-kampus-internasional-di-jakarta/"
+                  target="_blank">Baca selengkapnya →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <footer class="text-center mt-4">
+          <p class="text-dark small mt-3">
+            &copy; 2025 Dwi Andriani .<br>
+            Mata kuliah Desain Web 1A
+          </p>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
